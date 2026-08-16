@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #25245a;
+}
+
+header{
+    width: 100%;
+}
+nav {
+    height: 70px;
+    background-color: #9b5fc1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding:0 50px;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+}
+.nav-buttons {
+    display: flex;
+    gap: 28px;
+}
+.nav-buttons a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-buttons a:hover{
+    color:#e8d5f5;
+}
+.hero{
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+.hero-content {
+    max-width: 600px;
+}
+.hero-content h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.hero-content h1 span {
+    color: #9b5fc1;
+}
+.hero-content h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    gap:12px;
+}
+.btn {
+    background-color: #9b5fc1;
+    color:white;
+
+    text-decoration: none;
+
+    padding: 10px 22px;
+
+    border-radius:5px;
+}
+.btn:hover{
+    background-color: #7d469f;
+}
+.social {
+    margin-top: 100px;
+    display: flex;
+    gap: 12px
+}
+.social a {
+    color:#9b5fc1;
+    font-size: 18px;
+}
+.profile img {
+    width: 260px;
+    height: 260px;
+
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
