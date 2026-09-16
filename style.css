@@ -8,9 +8,7 @@ body{
     background-color: #ffffff;
     color: #25245a;
 }
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR */
 
 header {
     width: 100%;
@@ -61,9 +59,6 @@ header {
 
 
 /* hero */
-/* =========================
-   HERO SECTION
-========================= */
 
 .hero {
     min-height: calc(100vh - 70px);
@@ -138,9 +133,6 @@ header {
     border-radius: 10px;
 }
 /* ABOUT */
-/* =========================
-   ABOUT SECTION
-========================= */
 
 .about {
     min-height: calc(100vh - 70px);
